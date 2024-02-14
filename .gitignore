@@ -1,0 +1,8 @@
+datasets/
+
+# exclude venv
+dev_env/
+
+# exclude all json files
+*.json
+
