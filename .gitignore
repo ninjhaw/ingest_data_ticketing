@@ -6,3 +6,6 @@ dev_env/
 
 # exclude all json files
 *.json
+
+# notebook checkpoints
+.ipynb_checkpoints/
