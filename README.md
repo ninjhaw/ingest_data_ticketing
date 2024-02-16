@@ -18,6 +18,4 @@
     - changing of data types
     - dropping duplicates
 3. Loading into the Postgresql Database
-    - 
-
 
