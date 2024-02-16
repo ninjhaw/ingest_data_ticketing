@@ -1,9 +1,9 @@
 -- Disable foreign key constraints
 ALTER TABLE tickets DISABLE TRIGGER ALL;
 
-ALTER TABLE tickets DROP CONSTRAINT fk_category;
-ALTER TABLE tickets DROP CONSTRAINT fk_deparment;
-ALTER TABLE tickets DROP CONSTRAINT fk_urgency;
+ALTER TABLE categories DROP CONSTRAINT fk_category;
+ALTER TABLE departments DROP CONSTRAINT fk_deparment;
+ALTER TABLE urgency DROP CONSTRAINT fk_urgency;
 
 TRUNCATE TABLE categories, departments, urgency, tickets;
 
