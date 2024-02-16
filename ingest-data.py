@@ -1,5 +1,7 @@
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, null
+from time import time
 import pandas as pd
+import numpy as np
 import json
 import psycopg2
 from db_connection import postgres_connect as pc
@@ -12,9 +14,9 @@ conn = psycopg2.connect(
     password=db['password'],
     port=db['port'])
 
-engine = create_engine(f"postgresql://{db['user']}:{db['password']}@{db['host']}:{db['port']}/{db['database']}")
-print(engine.connect())
 
+engine = create_engine(f"postgresql://{db['user']}:{db['password']}@{db['host']}:{db['port']}/{db['database']}")
+ 
 # read the csv file
 df = pd.read_csv('Datasets/tickets.csv')
 
@@ -27,18 +29,24 @@ df.rename(columns={"Created Date":"created_date", "Ticket No.": "ticket_id","Sub
 # Strip the characters `#INC-`
 df['ticket_id'] = df['ticket_id'].str.strip('#INC-')
 
+# impute null values in urgency and department columns
+df['Urgency'] = df['Urgency'].apply(lambda x: np.random.choice(['Urgent', 'High', 'Medium', 'Low']) if pd.isnull(x) else x)
+unique_dept = df['department_name'].dropna().unique()
+df['department_name'] = df['department_name'].fillna(pd.Series(np.random.choice(unique_dept, size=len(df.index))))
+
+
 # convert data types according to the column and also data
 df['ticket_id'] = df['ticket_id'].astype('int')
 df['created_date'] = pd.to_datetime(df['created_date'])
 df['resolved_date'] = pd.to_datetime(df['resolved_date'])
 
+# drop any duplicates
+df.drop_duplicates()
 
 # upload the header of the table
 df.head(n=0).to_sql(name="tickets_temp", con=engine, if_exists="replace", index=False)
-
 # insert data into database
 df.to_sql(name="tickets_temp", con=engine, if_exists="append", index=False)
-
 
 
 # This is for inserting data into separate tables
@@ -83,3 +91,5 @@ try:
     conn.commit()
 except psycopg2.errors.UniqueViolation as e:
     print(f"Skipping duplicate ticket_id: {e}")
+
+print("Successfully Loaded into PostgreSQL DB!")
