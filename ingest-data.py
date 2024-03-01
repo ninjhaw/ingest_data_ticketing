@@ -18,7 +18,7 @@ conn = psycopg2.connect(
 engine = create_engine(f"postgresql://{db['user']}:{db['password']}@{db['host']}:{db['port']}/{db['database']}")
  
 # read the csv file
-df = pd.read_csv('Datasets/tickets.csv')
+df = pd.read_csv('datasets/Tickets.csv')
 
 # Dropping column category
 df.drop(columns=['Category'], inplace=True)
