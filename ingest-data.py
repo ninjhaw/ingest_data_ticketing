@@ -14,7 +14,6 @@ conn = psycopg2.connect(
     password=db['password'],
     port=db['port'])
 
-
 engine = create_engine(f"postgresql://{db['user']}:{db['password']}@{db['host']}:{db['port']}/{db['database']}")
 try:
     # read the csv file

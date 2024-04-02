@@ -551,10 +551,39 @@ Change IP of Laptop"
 ",,DPC Module Remote Desktop,Unable to access remote module 192.168.20.148,Resolved,FINANCE,Low,2024-03-06,Coordinate to HQ group to restart the module
 2024-03-06,#INC-7111117,,Email Concern,Thunderbird cannot receive mail,Resolved,FINANCE,Low,2024-03-06,Change of security ports
 2024-03-06,#INC-7111824,,DPC Module Remote Desktop,Unable to access remote module 192.168.20.148,Resolved,FINANCE,Low,2024-03-06,Coordinate to HQ group to restart the module
+2024-03-07,#INC-7115177,,DPC Module Remote Desktop,User Account Access for Jaira Chantelle Yu,Resolved,FINANCE,Low,2024-03-07,Account Created
 2024-03-07,#INC-7113637,,DPC Module Remote Desktop,DPC Remote Desktop - Bacolod 03/07/2024,Resolved,FINANCE,Low,2024-03-07,Coordinate to HQ group to restart the module
 2024-03-07,#INC-7115612,,Workplace,REQUEST FOR ASSISTANCE: Workplace unblocking,Resolved,BDD,Low,2024-03-07,Share phone network to unblock workplace
-2024-03-07,#INC-7116206,,Software/App Installation,PowerBI Account Creation for Ma'am Flores,Open,PLANNING AND SUPPORT,Medium,,
+2024-03-07,#INC-7116206,,Software/App Installation,PowerBI Account Creation for Ma'am Flores,Resolved,PLANNING AND SUPPORT,Medium,2024-03-14,Waiting for available account
 2024-03-08,#INC-7118000,,DPC/PC Concerns,DPC Application blocked,Resolved,FINANCE,Low,2024-03-08,Edit the security location of java
 2024-03-08,#INC-7118511,,Printer Concern,Printer paper jam,Resolved,PLANNING AND SUPPORT,Low,2024-03-08,Remove paper that jammed and restart
 2024-03-11,#INC-7126972,,DPC Module Remote Desktop,Cannot acces to module 192.168.20.141,Resolved,FINANCE,Low,2024-03-11,Coordinate to HQ Group to restart the module
 2024-03-11,#INC-7126964,,Desktop Installation,Desktop Installation for New Maintenance Staff,Resolved,MAINTENANCE,Urgent,2024-03-11,Desktop Installation
+2024-03-12,#INC-7136144,,Software/App Installation,Mysql Installation,Resolved,FINANCE,Medium,2024-03-12,Mysql Browser Installation
+2024-03-13,#INC-7136149,,DPC Module Remote Desktop,Credentials Can't login to Module,Resolved,FINANCE,Low,2024-03-13,Change `/` to `\` - corp7eleven\jlandong
+2024-03-13,#INC-7136839,,Software/App Installation,Account Access for PowerBI,Resolved,PLANNING AND SUPPORT,Medium,2024-03-14,Waiting for available account
+2024-03-15,#INC-7142407,,Assistance Support,Wifi and Exam Link Assistance,Resolved,HRD,Low,2024-03-14,
+2024-03-15,#INC-7143369,,Workplace,Workplace assistance,Resolved,BDD,Low,2024-03-15,Connect to phone network and reload
+2024-03-15,#INC-7143808,,DPC Module Remote Desktop,DPC Remote Desktop - Bacolod 03/015/2024,Resolved,FINANCE,Low,2024-03-15,Coordinate to HQ group to restart the module
+2024-03-18,#INC-7154836,,DPC Module Remote Desktop,Cannot Access remote module 192.168.20.141,Resolved,FINANCE,Low,2024-03-18,Coordinate to HQ group to restart the module
+2024-03-18,#INC-7155126,,Assistance Support,Exam Support and Assistance for Qualifying Exam,Resolved,HRD,Low,2024-03-18,Event Succesful and Done
+2024-03-18,#INC-7155173,,Network Concern,No Internet Connection,Resolved,FINANCE,Low,2024-03-18,Change network adapter setting
+2024-03-19,#INC-7159255,,DPC/PC Concerns,Drive C: full capacity,Resolved,FINANCE,Low,2024-03-19,Delete unused files
+2024-03-19,#INC-7161295,,Network Concern,PC Internet Problem- Not stable (Done),Resolved,FINANCE,Low,2024-03-19,Change network setting from static to dhcp
+2024-03-20,#INC-7165956,,Software/App Installation,Oracle Requirement Installation: Java,Resolved,MAINTENANCE,Low,2024-03-20,Install Java and Whitelist Ocloud site
+2024-03-21,#INC-7167783,,Workplace,Can't Access Workplace. Blocked by Fortinet Firewall,Resolved,PLANNING AND SUPPORT,Low,2024-03-21,Connect to network via Mobile USB Tethering
+2024-03-21,#INC-7169246,,Oracle,Oracle requires Java version update,Resolved,FINANCE,Low,2024-03-21,Update Java version through Java Updater
+2024-03-21,#INC-7170006,,DPC Module Remote Desktop,192.168.20.143 RTO,Resolved,FINANCE,Low,2024-03-21,Coordinate to HQ group to restart the module
+2024-03-22,#INC-7171675,,DPC Module Remote Desktop,Cannot access module 192.168.20.141,Resolved,FINANCE,Low,2024-03-22,Coordinate to HQ group to restart the module
+2024-03-22,#INC-7171699,,DPC Module Remote Desktop,Unable to access remote module IP 192.168.20.148,Resolved,FINANCE,Low,2024-03-22,Coordinate to HQ group to restart the module
+2024-03-22,#INC-7174266,,DPC Module Remote Desktop,DPC Remote Desktop - Iloilo 03/22/2024,Resolved,FINANCE,Low,2024-03-22,Coordinate to HQ group to restart the module
+2024-03-23,#INC-7175915,,Email Concern,Company Email Account Deactivated,Resolved,MAINTENANCE,Low,2024-03-25,Account Reactivated
+2024-03-22,#INC-7172412,,Email Concern, Blocked/Disabled email,Resolved,BDD,Medium,2024-03-25,Account Reactivated
+2024-03-25,#INC-7184777,,DPC Module Remote Desktop,DPC Remote Desktop - Bacolod 03/25/2024,Resolved,FINANCE,Low,2024-03-26,Coordinate to HQ group to restart the module
+2024-03-26,#INC-7187181,,DPC Module Remote Desktop,Unable to access remote module 192.168.20.143,Resolved,FINANCE,Low,2024-03-26,Coordinate to HQ group to restart the module
+2024-03-26,#INC-7190919,,DPC Module Remote Desktop,Module problem - Delay NCI Loading,Resolved,FINANCE,Low,2024-03-26,Coordinate to HQ group to restart the module
+2024-03-30,#INC-7202219,,DPC Module Remote Desktop,DPC Remote Desktop - Bacolod 03/30/2024,Resolved,FINANCE,Low,2024-03-30,Coordinate to HQ group to restart the module
+2024-03-23,#INC-7202889,,Desktop/PC Concern,Desktop Freezes,Resolved,FINANCE,Low,2024-03-30,Restarted Desktop
+2024-03-30,#INC-7203245,,DPC Module Remote Desktop,DPC Remote Desktop - Bacolod 03/30/2024,Resolved,FINANCE,Low,2024-03-30,Coordinate to HQ group to restart the module
+2024-03-30,#INC-7203899,,DPC Module Remote Desktop,DPC Remote Desktop - Bacolod 03/30/2024,Resolved,FINANCE,Low,2024-03-30,Coordinate to HQ group to restart the module
+2024-04-01,#INC-7206821,,DPC Module Remote Desktop,DPC Remote Desktop - Bacolod 04/01/2024,Resolved,FINANCE,Low,2024-04-01,Coordinate to HQ group to restart the module
