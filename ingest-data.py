@@ -1,8 +1,7 @@
-from sqlalchemy import create_engine, null
+from sqlalchemy import create_engine
 from time import time
 import pandas as pd
 import numpy as np
-import json
 import psycopg2
 from db_connection import postgres_connect as pc
 
