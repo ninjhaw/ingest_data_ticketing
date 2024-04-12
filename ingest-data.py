@@ -44,7 +44,7 @@ try:
     # upload the header of the table
     df.head(n=0).to_sql(name="tickets_temp", con=engine, if_exists="replace", index=False)
     # insert data into database
-    df.to_sql(name="tickets_temp", con=engine, if_exists="append", index=False)
+    df.to_sql(name="tickets_temp", con=engine, if_exists="replace", index=False)
 
 
     # This is for inserting data into separate tables
